@@ -1,0 +1,5 @@
+Pillow
+pytest
+pytest-pep8
+numpy
+matplotlib
