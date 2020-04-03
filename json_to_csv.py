@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 def read_image_paths():
-    imgs_path = sorted(glob.glob(os.path.join('data', '*.png')))
+    imgs_path = sorted(glob.glob(os.path.join('data/train_2', '*.png')))
     print(imgs_path)
     return imgs_path
 
@@ -19,7 +19,7 @@ def read_img(path):
 
 
 def location_info():
-    example = "training_1.json"
+    example = "training_2.json"
     in_file = open(example, "r")
     new_variable = json.load(in_file)
     in_file.close()
